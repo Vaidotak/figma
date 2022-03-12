@@ -1,3 +1,331 @@
-body{
-  background-color: blue;
+body {
+  margin: auto;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+}
+
+main {
+  margin: 20px;
+}
+
+/* Hero pradžia */
+.hero-row {
+  align-items: center;
+  position: absolute;
+  max-width: 272px;
+}
+
+.hero-pic {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.nft.hero-container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+section.nft.hero-container p {
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FF3998;
+}
+
+section.nft.hero-container h1 {
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 48px;
+  color: black;
+}
+
+section.nft.hero-container h6 {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+a.button-h {
+  border: 4px solid #ff8139;
+  padding: 1em 2em;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+/* Hero pabaiga */
+/* Free pradžia */
+.free-row {
+  position: relative;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.free-row img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.free-row p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.free-row h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+}
+/* Free pabaiga */
+/* Logotipai */
+#c-logo {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: center;
+}
+
+#c-logo img {
+  max-width: 150px;
+  padding: 10px;
+}
+/* Logotipų pabaiga */
+/* Auction pradžia */
+
+.auction {
+  padding-top: 80px;
+}
+
+.auction h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.auction .cards {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  overflow-x: hidden;
+}
+
+div > .card-1, .card-2, .card-3, .card-4 {
+  width: 290px;
+  height: 400px;
+  background: #eeeeee;
+  border-radius: 16px;
+}
+.prise-container {  display: grid;
+  grid-template-columns: 1.5fr 0.3fr 1.2fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0px 0px;
+  grid-auto-flow: column;
+  grid-template-areas:
+    "nseries eth nbid"
+    "nname eth nprise"
+    "ncode eth nday";
+  width: 290px;
+  max-height: 100px;
+}
+
+.eth {
+  justify-self: center;
+  align-self: center;
+  grid-area: eth;
+}
+
+.eth img {
+  margin-top: 20px;
+}
+
+.nseries {
+  justify-self: start;
+  align-self: center;
+  grid-area: nseries;
+}
+
+.nseries p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ff8139;
+  padding: 15px 0 0 15px;
+}
+
+.nname {
+  justify-self: start;
+  align-self: center;
+  grid-area: nname;
+}
+
+.nname p {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #000000;
+  padding: 15px 0 0 15px;
+}
+
+.ncode {
+  justify-self: start;
+  align-self: center;
+  grid-area: ncode;
+}
+
+.ncode p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #777777;
+  padding: 15px 0 0 15px;
+}
+
+.nbid {
+  justify-self: end;
+  align-self: center;
+  grid-area: nbid;
+}
+
+.nbid p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: right;
+  text-transform: uppercase;
+  color: #777777;
+  padding: 15px 15px 0 0;
+}
+
+.nprise {
+  justify-self: end;
+  align-self: center;
+  grid-area: nprise;
+}
+
+.nprise p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #000000;
+  padding: 15px 15px 0 0;
+}
+
+.nday {
+  justify-self: end;
+  align-self: center;
+  grid-area: nday;
+}
+
+.nday p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  text-align: right;
+  text-transform: uppercase;
+  color: #777777;
+  padding: 15px 15px 0 0;
+}
+
+.prise-container p {
+  margin: 0;
+}
+/* Auction pabaiga */
+.layout-footer {
+  width: 100%;
+
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.grow1 {
+  flex-grow: 1;
+}
+
+.grow-flex {
+  display: flex;
+  text-align: left;
+  text-decoration: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+}
+a:link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.fa-brands {
+  color: #555555;
+  letter-spacing: 1em;
+}
+
+.about-links,
+.nft-links,
+.contacts-links,
+.social-links {
+  min-width: 50%;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 428px) {
+  .free-row {
+    position: relative;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  
+  .free-row img {
+    width: 100%;
+    height: auto;
+    
+    object-position: center;
+  }
+  .column {
+    width: 50%;
+  }
+  .about-links,
+  .nft-links,
+  .contacts-links,
+  .social-links {
+    min-width: 25%;
+  }
 }
