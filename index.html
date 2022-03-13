@@ -1,195 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b70081fde3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/nav-style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>HTML CSS egzaminas</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://kit.fontawesome.com/b70081fde3.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-    crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="styles/nav-style.css">
-  <link rel="stylesheet" href="styles/style.css" />
-  <title>HTML CSS egzaminas</title>
-</head>
-
-<body>
-  <main class="container main">
-    <!-- Navigacija -->
-    <section class="top-nav">
-      <div>
-        <img src="./images/logo.svg" alt="logo" width="198" height="36" />
-      </div>
-      <input id="menu-toggle" type="checkbox" />
-      <label class='menu-button-container' for="menu-toggle">
-        <div class='menu-button'></div>
-      </label>
-      <ul class="menu">
-        <li>Features</li>
-        <li>About</li>
-        <li>Launch</li>
-        <li>Sign up</li>
-      </ul>
-    </section>
-    <!-- Navigacijos pabaiga -->
-    <!-- Hero -->
-    <section class="nft hero-container">
-      <div class="hero-row">
-        <p>Launching Soon</p>
-        <h1>An NFT like <br> no other</h1>
-        <h6>Don’t miss out on the release of our new NFT. Sign up <br> below to receive updates when we go live.</h6>
-        <a href="#" class="button-h">Sign up</a>
-      </div>
-      <div class="hero-pic">
-        <img src="./images/graphic.svg" alt="">
-      </div>
-    </section>
-    <!-- Hero pabaiga -->
-    <!-- Free NFT pradžia -->
-    <section class="free-nft">
+  <body>
+    <main class="container main">
+      <!-- Navigacija -->
+      <section class="top-nav">
+        <div>
+          <img src="./images/logo.svg" alt="logo" width="198" height="36" />
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+          <div class="menu-button"></div>
+        </label>
+        <ul class="menu">
+          <li>Features</li>
+          <li>About</li>
+          <li>Launch</li>
+          <li>Sign up</li>
+        </ul>
+      </section>
+      <!-- Navigacijos pabaiga -->
+      <!-- Hero -->
+      <section class="nft hero-container">
+        <div class="hero-row">
+          <p>Launching Soon</p>
+          <h1>
+            An NFT like <br />
+            no other
+          </h1>
+          <h6>
+            Don’t miss out on the release of our new NFT. Sign up <br />
+            below to receive updates when we go live.
+          </h6>
+          <a href="#" class="button-h">Sign up</a>
+        </div>
+        <div class="hero-pic">
+          <img src="./images/graphic.svg" alt="" />
+        </div>
+      </section>
+      <!-- Hero pabaiga -->
+      <!-- Free NFT pradžia -->
+      <section class="free-nft">
         <div class="free-row">
-          <img src="./images/background.svg" alt="">
+          <img src="./images/background.svg" alt="" />
           <div class="bottom-left">
-          <h5>Free NFT for early birds</h5>
-          <p>Sign up today and you’ll get a free NFT when we launch.</p>
-        </div>
-      </div>
-    </section>
-    <!-- Free NFT pabaiga -->
-    <!-- Companies pradžia -->
-    <section class="companies">
-      <div id="c-logo">
-        <img src="./images/companies/1.svg" alt="Boomerang" />
-        <img src="./images/companies/2.svg" alt="Blimp" />
-        <img src="./images/companies/3.svg" alt="qrco" />
-        <img src="./images/companies/4.svg" alt="OperDoor" />
-        <img src="./images/companies/5.svg" alt="Droplet" />
-      </div>
-    </section>
-    <!-- Companies pabaiga -->
-    <!-- Auction pradžia -->
-    <section class="auction">
-      <h4>LE Super Rare Auction</h4>
-      <p>We have released four limited edition NFTs early which can be bid on via <span>OpenSea.</span></p>
-      <div class="cards">
-        <div class="card-1">
-          <img src="./images/ntfs/ntf-1.svg" alt="" />
-          <div class="prise-container">
-            <div class="eth"><img src="./images/eth.svg" alt="" /></div>
-            <div class="nseries"><p>Gloop Series</p></div>
-            <div class="nname"><p>Purple Man</p></div>
-            <div class="ncode"><p>#12983</p></div>
-            <div class="nbid"><p>Top bid</p></div>
-            <div class="nprise"><p>2.99 ETH</p></div>
-            <div class="nday"><p>1 day left</p></div>
-          </div>
-        </div>
-        <div class="card-2">
-          <img src="./images/ntfs/nft-2.svg" alt="" />
-          <div class="prise-container">
-            <div class="eth"><img src="./images/eth.svg" alt="" /></div>
-            <div class="nseries"><p>Gloop Series</p></div>
-            <div class="nname"><p>Beige</p></div>
-            <div class="ncode"><p>#12983</p></div>
-            <div class="nbid"><p>Top bid</p></div>
-            <div class="nprise"><p>2.99 ETH</p></div>
-            <div class="nday"><p>1 day left</p></div>
-          </div>
-        </div>
-        <div class="card-3">
-          <img src="./images/ntfs/ntf-3.svg" alt="" />
-          <div class="prise-container">
-            <div class="eth"><img src="./images/eth.svg" alt="" /></div>
-            <div class="nseries"><p>Gloop Series</p></div>
-            <div class="nname"><p>Red Men</p></div>
-            <div class="ncode"><p>#12983</p></div>
-            <div class="nbid"><p>Top bid</p></div>
-            <div class="nprise"><p>2.99 ETH</p></div>
-            <div class="nday"><p>1 day left</p></div>
-          </div>
-        </div>
-        <div class="card-4">
-          <img src="./images/ntfs/ntf-4.svg" alt="" />
-          <div class="prise-container">
-            <div class="eth"><img src="./images/eth.svg" alt="" /></div>
-            <div class="nseries"><p>Gloop Series</p></div>
-            <div class="nname"><p>Green</p></div>
-            <div class="ncode"><p>#12983</p></div>
-            <div class="nbid"><p>Top bid</p></div>
-            <div class="nprise"><p>2.99 ETH</p></div>
-            <div class="nday"><p>1 day left</p></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Auction pabaiga -->
-    <!-- Green girl pradžia -->
-    <section class="green-girl">
-      <div class="green-row">
-        <p>Launching Soon</p>
-        <h1>An NFT like no other</h1>
-        <h6>Don’t miss out on the release of our new NFT. Sign up below to receive updates when we go live.</h6>
-        <a href="#" class="button-h">Sign up</a>
-      </div>
-      <div class="green-pic">
-        <img src="./images/upsell-footer-image.svg" alt="">
-      </div>
-    </section>
-    <!-- Green girl pabaiga -->
-    <!-- Apačios pradžia -->
-    <footer class="f-grid">
-      <section class="layout-footer">
-        <div class="grow1">
-          <div class="logo">
-            <img src="./images/logo.svg" alt="logo" />
-          </div>
-          <div class="title">
-            <h4>Exclusive NFT Collection</h4>
-          </div>
-          <div class="social">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-tiktok"></i>
-          </div>
-        </div>
-        <div class="grow1 grow-flex">
-          <div class="about-links">
-            <a href="#">About</a>
-            <p>About</p>
-            <p>Terms</p>
-            <p>Legal</p>
-          </div>
-          <div class="nft-links">
-            <a href="#">NFT</a>
-            <p>About</p>
-            <p>Terms</p>
-            <p>Legal</p>
-          </div>
-          <div class="contacts-links">
-            <a href="#">CONTACT</a>
-            <p>About</p>
-            <p>Terms</p>
-          </div>
-          <div class="social-links">
-            <a href="#">SOCIAL</a>
-            <p>Twitter</p>
-            <p>Instagram</p>
+            <h5>Free NFT for early birds</h5>
+            <p>Sign up today and you’ll get a free NFT when we launch.</p>
           </div>
         </div>
       </section>
-    </footer>
-    <footer class="bottom">
-      <p class="boco">&copy; Copyright 2022 Vaidotak</p>
-      <p class="bolo">Launching August 2022</p>
-    </footer>
-    <!-- Apačios pabaiga -->
-  </main>
-</body>
-
+      <!-- Free NFT pabaiga -->
+      <!-- Companies pradžia -->
+      <section class="companies">
+        <div id="c-logo">
+          <img src="./images/companies/1.svg" alt="Boomerang" />
+          <img src="./images/companies/2.svg" alt="Blimp" />
+          <img src="./images/companies/3.svg" alt="qrco" />
+          <img src="./images/companies/4.svg" alt="OperDoor" />
+          <img src="./images/companies/5.svg" alt="Droplet" />
+        </div>
+      </section>
+      <!-- Companies pabaiga -->
+      <!-- Auction pradžia -->
+      <section class="auction">
+        <h4>LE Super Rare Auction</h4>
+        <p>
+          We have released four limited edition NFTs early which can be bid on
+          via <span>OpenSea.</span>
+        </p>
+        <div class="cards">
+          <div class="card-1">
+            <img src="./images/ntfs/ntf-1.svg" alt="" />
+            <div class="prise-container">
+              <div class="eth"><img src="./images/eth.svg" alt="" /></div>
+              <div class="nseries"><p>Gloop Series</p></div>
+              <div class="nname"><p>Purple Man</p></div>
+              <div class="ncode"><p>#12983</p></div>
+              <div class="nbid"><p>Top bid</p></div>
+              <div class="nprise"><p>2.99 ETH</p></div>
+              <div class="nday"><p>1 day left</p></div>
+            </div>
+          </div>
+          <div class="card-2">
+            <img src="./images/ntfs/nft-2.svg" alt="" />
+            <div class="prise-container">
+              <div class="eth"><img src="./images/eth.svg" alt="" /></div>
+              <div class="nseries"><p>Gloop Series</p></div>
+              <div class="nname"><p>Beige</p></div>
+              <div class="ncode"><p>#12983</p></div>
+              <div class="nbid"><p>Top bid</p></div>
+              <div class="nprise"><p>2.99 ETH</p></div>
+              <div class="nday"><p>1 day left</p></div>
+            </div>
+          </div>
+          <div class="card-3">
+            <img src="./images/ntfs/ntf-3.svg" alt="" />
+            <div class="prise-container">
+              <div class="eth"><img src="./images/eth.svg" alt="" /></div>
+              <div class="nseries"><p>Gloop Series</p></div>
+              <div class="nname"><p>Red Men</p></div>
+              <div class="ncode"><p>#12983</p></div>
+              <div class="nbid"><p>Top bid</p></div>
+              <div class="nprise"><p>2.99 ETH</p></div>
+              <div class="nday"><p>1 day left</p></div>
+            </div>
+          </div>
+          <div class="card-4">
+            <img src="./images/ntfs/ntf-4.svg" alt="" />
+            <div class="prise-container">
+              <div class="eth"><img src="./images/eth.svg" alt="" /></div>
+              <div class="nseries"><p>Gloop Series</p></div>
+              <div class="nname"><p>Green</p></div>
+              <div class="ncode"><p>#12983</p></div>
+              <div class="nbid"><p>Top bid</p></div>
+              <div class="nprise"><p>2.99 ETH</p></div>
+              <div class="nday"><p>1 day left</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Auction pabaiga -->
+      <!-- Green girl pradžia -->
+      <section class="green-girl">
+        <div class="green-row">
+          <p>Launching Soon</p>
+          <h1>An NFT like no other</h1>
+          <h6>
+            Don’t miss out on the release of our new NFT. Sign up below to
+            receive updates when we go live.
+          </h6>
+          <a href="#" class="button-h">Sign up</a>
+        </div>
+        <div class="green-pic">
+          <img src="./images/upsell-footer-image.svg" alt="" />
+        </div>
+      </section>
+      <!-- Green girl pabaiga -->
+      <!-- Apačios pradžia -->
+      <footer class="f-grid">
+        <section class="layout-footer">
+          <div class="grow1">
+            <div class="logo">
+              <img src="./images/logo.svg" alt="logo" />
+            </div>
+            <div class="title">
+              <h4>Exclusive NFT Collection</h4>
+            </div>
+            <div class="social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-tiktok"></i>
+            </div>
+          </div>
+          <div class="grow1 grow-flex">
+            <div class="about-links">
+              <a href="#">About</a>
+              <p>About</p>
+              <p>Terms</p>
+              <p>Legal</p>
+            </div>
+            <div class="nft-links">
+              <a href="#">NFT</a>
+              <p>About</p>
+              <p>Terms</p>
+              <p>Legal</p>
+            </div>
+            <div class="contacts-links">
+              <a href="#">CONTACT</a>
+              <p>About</p>
+              <p>Terms</p>
+            </div>
+            <div class="social-links">
+              <a href="#">SOCIAL</a>
+              <p>Twitter</p>
+              <p>Instagram</p>
+            </div>
+          </div>
+        </section>
+        <div class="bottom">
+          <p class="boco">&copy; Copyright 2022 Vaidotak</p>
+          <p class="bolo">Launching August 2022</p>
+        </div>
+      </footer>
+      <!-- Apačios pabaiga -->
+    </main>
+  </body>
 </html>

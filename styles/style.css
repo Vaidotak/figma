@@ -1,11 +1,12 @@
 body {
   margin: auto;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   text-decoration: none;
 }
 
 main {
   margin: 20px;
+  padding-bottom: 20px;
 }
 
 /* Hero pradžia */
@@ -35,7 +36,7 @@ section.nft.hero-container p {
   font-weight: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #FF3998;
+  color: #ff3998;
 }
 
 section.nft.hero-container h1 {
@@ -130,13 +131,17 @@ a.button-h {
   overflow-x: hidden;
 }
 
-div > .card-1, .card-2, .card-3, .card-4 {
+div > .card-1,
+.card-2,
+.card-3,
+.card-4 {
   width: 290px;
   height: 400px;
   background: #eeeeee;
   border-radius: 16px;
 }
-.prise-container {  display: grid;
+.prise-container {
+  display: grid;
   grid-template-columns: 1.5fr 0.3fr 1.2fr;
   grid-template-rows: repeat(3, 1fr);
   gap: 0px 0px;
@@ -261,15 +266,15 @@ div > .card-1, .card-2, .card-3, .card-4 {
 }
 /* Auction pabaiga */
 /* Green girl pradžia */
-.green-girl{
+.green-girl {
   margin-top: 100px;
-    padding-top: 100px;
-    display: flex;
-    border: #eeeeee;
-    border-style: solid;
-    border-width: 2px 0;
-    margin-bottom: 100px;
-    overflow-x: hidden;
+  padding-top: 100px;
+  display: flex;
+  border: #eeeeee;
+  border-style: solid;
+  border-width: 2px 0;
+  margin-bottom: 100px;
+  overflow-x: hidden;
 }
 
 .green-row {
@@ -299,7 +304,7 @@ div.green-row p {
   font-weight: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #FF3998;
+  color: #ff3998;
 }
 
 div.green-row h1 {
@@ -367,20 +372,20 @@ a:link {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  overflow-x: hidden;
 }
 
-/* .boco {
-  min-width: 550px;
-} */
+p.boco,
+.bolo {
+  color: #777777;
+}
 
 .bolo {
   display: none;
 }
 
 @media screen and (min-width: 428px) {
-  .green-girl{
-      justify-content: space-between;
+  .green-girl {
+    justify-content: space-between;
   }
   .green-row {
     max-width: 50%;
@@ -405,11 +410,11 @@ a:link {
     text-align: center;
     overflow-x: hidden;
   }
-  
+
   .free-row img {
     width: 100%;
     height: auto;
-    
+
     object-position: center;
   }
   .column {
