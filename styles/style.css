@@ -260,6 +260,63 @@ div > .card-1, .card-2, .card-3, .card-4 {
   margin: 0;
 }
 /* Auction pabaiga */
+/* Green girl pradžia */
+.green-girl{
+  margin-top: 100px;
+    padding-top: 100px;
+    display: flex;
+    border: #eeeeee;
+    border-style: solid;
+    border-width: 2px 0;
+    margin-bottom: 100px;
+    overflow-x: hidden;
+}
+
+.green-row {
+  min-width: 253px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 80px;
+}
+
+.green-pic {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+}
+
+.green-pic img {
+  max-width: auto;
+  max-height: 100%;
+}
+
+div.green-row p {
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FF3998;
+}
+
+div.green-row h1 {
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 48px;
+  color: black;
+}
+
+div.green-row h6 {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+}
+/* Green girl pabaiga */
 .layout-footer {
   width: 100%;
 
@@ -306,7 +363,43 @@ a:link {
   margin-top: 25px;
 }
 
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+/* .boco {
+  min-width: 550px;
+} */
+
+.bolo {
+  display: none;
+}
+
 @media screen and (min-width: 428px) {
+  .green-girl{
+      justify-content: space-between;
+  }
+  .green-row {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 80px;
+  }
+  /* Atitraukiau nuo dešinio krašto */
+  .green-pic {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    margin-right: 20%;
+  }
+
   .free-row {
     position: relative;
     text-align: center;
@@ -327,5 +420,9 @@ a:link {
   .contacts-links,
   .social-links {
     min-width: 25%;
+  }
+
+  .bolo {
+    display: block;
   }
 }
