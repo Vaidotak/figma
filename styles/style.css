@@ -112,7 +112,6 @@ a.button-h {
 }
 /* Logotipų pabaiga */
 /* Auction pradžia */
-
 .auction {
   padding-top: 80px;
 }
@@ -140,6 +139,7 @@ div > .card-1,
   background: #eeeeee;
   border-radius: 16px;
 }
+
 .prise-container {
   display: grid;
   grid-template-columns: 1.5fr 0.3fr 1.2fr;
@@ -344,6 +344,7 @@ div.green-row h6 {
   align-items: flex-start;
   align-content: center;
 }
+
 a:link {
   font-style: normal;
   font-weight: bold;
@@ -384,9 +385,11 @@ p.boco,
 }
 
 @media screen and (min-width: 428px) {
+  /* Pastačiau merginą į vietą */
   .green-girl {
     justify-content: space-between;
   }
+
   .green-row {
     max-width: 50%;
     display: flex;
@@ -414,12 +417,13 @@ p.boco,
   .free-row img {
     width: 100%;
     height: auto;
-
     object-position: center;
   }
+
   .column {
     width: 50%;
   }
+
   .about-links,
   .nft-links,
   .contacts-links,
