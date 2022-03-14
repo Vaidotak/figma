@@ -116,6 +116,7 @@ a.button-h {
   flex-wrap: wrap;
   align-content: space-between;
   align-items: center;
+  padding-top: 90px;
 }
 
 #c-logo img {
@@ -129,7 +130,7 @@ a.button-h {
 /* Logotipų pabaiga */
 /* Auction pradžia */
 .auction {
-  padding-top: 80px;
+  padding-top: 30px;
 }
 
 .auction h4 {
