@@ -415,7 +415,32 @@ p.boco,
 }
 
 @media screen and (min-width: 428px) {
+  main {
+    margin: 3%;
+    padding-bottom: 20px;
+  }
   /* Hero pradžia */
+  a.button-h {
+    border: 0.5vw solid #ff8139;
+    padding: 1em 2em;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+  }
+
+  a:link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 19px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #555555;
+  }
+
   .hero-row {
     align-items: center;
     position: absolute;
@@ -433,7 +458,7 @@ p.boco,
   }
 
   div.hero-pic img {
-    width: 600px;
+    width: 90vh;
   }
 
   section.nft.hero-container {
@@ -446,11 +471,79 @@ p.boco,
   section.nft.hero-container h1 {
     margin-top: 20px;
     font-weight: 900;
-    font-size: 72px;
+    font-size: 6vw;
     color: black;
   }
-  /* Hero pabaiga */
 
+  section.nft.hero-container p {
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ff3998;
+    font-size: 1.5vw;
+  }
+  
+  section.nft.hero-container h6 {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5vw;
+    line-height: 150%;
+    color: #777777;
+  }
+  /* Hero pabaiga */
+  div > .card-1 {
+    width: 25%;
+    height: 400px;
+    background: #eeeeee;
+    border-radius: 16px;
+  }
+  div > .card-2 {
+    width: 25%;
+    height: 400px;
+    background: #eeeeee;
+    border-radius: 16px;
+  }
+  div > .card-3 {
+    width: 25%;
+    height: 400px;
+    background: #eeeeee;
+    border-radius: 16px;
+  }
+  div > .card-4 {
+    width: 25%;
+    height: 400px;
+    background: #eeeeee;
+    border-radius: 16px;
+  }
+
+  div .card-1 img {
+    width: 100%;
+    height: 400px;
+    background: #eeeeee;
+    border-radius: 16px;
+  }
+
+  div .card-2 img {
+    width: 100%;
+    height: 400px;
+    background: #eeeeee;
+    border-radius: 16px;
+  }
+  
+  div .card-3 img {
+    width: 100%;
+    height: 400px;
+    background: #eeeeee;
+    border-radius: 16px;
+  }
+  div .card-4 img {
+    width: 100%;
+    height: 400px;
+    background: #eeeeee;
+    border-radius: 16px;
+  }
   /* Rodyti visus logotipus */
   .qq {
     display: block;
@@ -465,9 +558,38 @@ p.boco,
     align-items: center;
     padding-top: 90px;
   }
+
+  #c-logo img {
+    min-width: 20%;
+    padding: 2%;
+  }
   /* Pastačiau merginą į vietą */
   .green-girl {
     justify-content: space-between;
+  }
+
+  div.green-row p {
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ff3998;
+    font-size: 1.5vw;
+  }
+  
+  div.green-row h1 {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 6vw;
+    color: black;
+  }
+
+  div.green-row h6 {
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5vw;
+    line-height: 130%;
   }
   /* Panaikina liniją per vidurį */
   hr {
@@ -500,6 +622,7 @@ p.boco,
     flex-direction: column-reverse;
     justify-content: flex-start;
     margin-right: 20%;
+    width: 20%;
   }
 
   .free-row {
@@ -511,7 +634,21 @@ p.boco,
   .free-row img {
     width: 100%;
     height: auto;
-    object-position: center;
+    background-size: cover
+  }
+
+  .free-row p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+    text-align: left;
+  }
+  
+  .free-row h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4.5vw;
+    text-align: left;
   }
 
   .column {
@@ -525,7 +662,45 @@ p.boco,
     min-width: 25%;
   }
 
+  div.grow1.grow-flex {
+    font-size: 1.5vw;
+  }
+
+  a:link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 19px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #555555;
+  }
+  
+  .fa-brands {
+    color: #555555;
+    letter-spacing: 1em;
+    font-size: 1.5vw;
+  }
+
+  div.logo img {
+    width: 50%;
+  }
+
+  div.title p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+    text-align: left;
+  }
+
   .bolo {
     display: block;
   }
+
+  p.boco,
+.bolo {
+  color: #777777;
+  font-size: 1.5vw;
+}
 }
