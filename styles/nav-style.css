@@ -25,6 +25,10 @@ body {
   margin-top: 2em;
 }
 
+.top-nav img {
+  width: 15vw;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -142,7 +146,7 @@ body {
     color: white;
   }
 
-  img {
-    width: 15vw;
+  .top-nav img {
+    width: 30vw;
   }
 }
